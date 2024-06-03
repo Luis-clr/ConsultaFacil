@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisRibeiro\\Documents\\Faculdade\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj",
+      "projectUniqueName": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj",
       "projectName": "ConsultaFacilWeb",
-      "projectPath": "C:\\Users\\LuisRibeiro\\Documents\\Faculdade\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj",
+      "projectPath": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj",
       "packagesPath": "C:\\Users\\LuisRibeiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisRibeiro\\Documents\\Faculdade\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\obj\\",
+      "outputPath": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LuisRibeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ConsultaFacilWeb")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27f3aa03f80ae8b05f15e1bf83c5a6289ad78093")]
-[assembly: System.Reflection.AssemblyProductAttribute("ConsultaFacilWeb")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ConsultaFacilWeb")]
+[assembly: System.Reflection.AssemblyProductAttribute("Core")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj": {}
+    "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj": {
+    "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj",
-        "projectName": "ConsultaFacilWeb",
-        "projectPath": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\ConsultaFacilWeb.csproj",
+        "projectUniqueName": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\LuisRibeiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\ConsultaFacilWeb\\obj\\",
+        "outputPath": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LuisRibeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,9 +66,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
