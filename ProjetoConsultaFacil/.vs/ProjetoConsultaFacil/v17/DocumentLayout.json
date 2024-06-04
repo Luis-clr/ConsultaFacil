@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|c:\\users\\luisribeiro\\documents\\curso\\consultafacil\\projetoconsultafacil\\core\\consultafacilcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|solutionrelative:core\\consultafacilcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|c:\\users\\luisribeiro\\documents\\curso\\consultafacil\\projetoconsultafacil\\core\\tbtipoconsultum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|solutionrelative:core\\tbtipoconsultum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|c:\\users\\luisribeiro\\documents\\curso\\consultafacil\\projetoconsultafacil\\core\\tbpagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|solutionrelative:core\\tbpagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|c:\\users\\luisribeiro\\documents\\curso\\consultafacil\\projetoconsultafacil\\core\\tbconsultum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|solutionrelative:core\\tbconsultum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|c:\\users\\luisribeiro\\documents\\curso\\consultafacil\\projetoconsultafacil\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A6A2FDFA-4550-4085-A489-2BAC2D924C70}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TbTipoConsultum.cs",
+              "DocumentMoniker": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\TbTipoConsultum.cs",
+              "RelativeDocumentMoniker": "Core\\TbTipoConsultum.cs",
+              "ToolTip": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\TbTipoConsultum.cs",
+              "RelativeToolTip": "Core\\TbTipoConsultum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:59:45.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TbPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\TbPagamento.cs",
+              "RelativeDocumentMoniker": "Core\\TbPagamento.cs",
+              "ToolTip": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\TbPagamento.cs",
+              "RelativeToolTip": "Core\\TbPagamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:59:43.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TbConsultum.cs",
+              "DocumentMoniker": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\TbConsultum.cs",
+              "RelativeDocumentMoniker": "Core\\TbConsultum.cs",
+              "ToolTip": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\TbConsultum.cs",
+              "RelativeToolTip": "Core\\TbConsultum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:59:33.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsultaFacilContext.cs",
+              "DocumentMoniker": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\ConsultaFacilContext.cs",
+              "RelativeDocumentMoniker": "Core\\ConsultaFacilContext.cs",
+              "ToolTip": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\ConsultaFacilContext.cs",
+              "RelativeToolTip": "Core\\ConsultaFacilContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:59:27.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Core",
+              "DocumentMoniker": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\LuisRibeiro\\Documents\\CURSO\\ConsultaFacil\\ProjetoConsultaFacil\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T20:24:37.64Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

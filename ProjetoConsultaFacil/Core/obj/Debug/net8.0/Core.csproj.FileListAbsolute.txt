@@ -1,0 +1,15 @@
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\bin\Debug\net8.0\Core.dll
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.dll
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\bin\Debug\net8.0\Core.runtimeconfig.json
+C:\Users\LuisRibeiro\Documents\CURSO\ConsultaFacil\ProjetoConsultaFacil\Core\obj\Debug\net8.0\Core.genruntimeconfig.cache
