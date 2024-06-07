@@ -25,6 +25,8 @@ public partial class ConsultaFacilContext : DbContext
 
     public virtual DbSet<TbPagamento> TbPagamentos { get; set; }
 
+    public virtual DbSet<TbResidencium> TbResidencia { get; set; }
+
     public virtual DbSet<TbTipoConsultum> TbTipoConsulta { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -93,15 +95,12 @@ public partial class ConsultaFacilContext : DbContext
 
             entity.HasIndex(e => new { e.TbPacienteIdPaciente, e.TbPacienteCpf }, "fk_Tb_Endereco_Tb_Paciente1_idx");
 
-            entity.HasIndex(e => e.TbMedicoIdMedico, "fk_Tb_Endereco_Tb_medico1_idx");
-
             entity.Property(e => e.IdEndereco).HasColumnName("id_Endereco");
             entity.Property(e => e.Cep).HasMaxLength(8);
             entity.Property(e => e.Cidade).HasMaxLength(45);
             entity.Property(e => e.Complemento).HasMaxLength(45);
             entity.Property(e => e.Numero).HasMaxLength(10);
             entity.Property(e => e.Rua).HasMaxLength(45);
-            entity.Property(e => e.TbMedicoIdMedico).HasColumnName("Tb_medico_id_medico");
             entity.Property(e => e.TbPacienteCpf)
                 .HasMaxLength(11)
                 .HasColumnName("Tb_Paciente_Cpf");
@@ -109,11 +108,6 @@ public partial class ConsultaFacilContext : DbContext
             entity.Property(e => e.Uf)
                 .HasMaxLength(2)
                 .HasColumnName("UF");
-
-            entity.HasOne(d => d.TbMedicoIdMedicoNavigation).WithMany(p => p.TbEnderecos)
-                .HasForeignKey(d => d.TbMedicoIdMedico)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("fk_Tb_Endereco_Tb_medico1");
 
             entity.HasOne(d => d.TbPaciente).WithMany(p => p.TbEnderecos)
                 .HasForeignKey(d => new { d.TbPacienteIdPaciente, d.TbPacienteCpf })
@@ -179,6 +173,31 @@ public partial class ConsultaFacilContext : DbContext
                 .HasForeignKey(d => d.TbConsultaIdCosulta)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_Tb_Pagamento_Tb_Consulta");
+        });
+
+        modelBuilder.Entity<TbResidencium>(entity =>
+        {
+            entity.HasKey(e => e.IdResidencia).HasName("PRIMARY");
+
+            entity.ToTable("tb_residencia");
+
+            entity.HasIndex(e => e.TbMedicoIdMedico, "fk_Tb_residencia_Tb_medico1_idx");
+
+            entity.Property(e => e.IdResidencia).HasColumnName("id_Residencia");
+            entity.Property(e => e.Cep).HasMaxLength(8);
+            entity.Property(e => e.Cidade).HasMaxLength(45);
+            entity.Property(e => e.Complemento).HasMaxLength(45);
+            entity.Property(e => e.Numero).HasMaxLength(10);
+            entity.Property(e => e.Rua).HasMaxLength(45);
+            entity.Property(e => e.TbMedicoIdMedico).HasColumnName("Tb_medico_id_medico");
+            entity.Property(e => e.Uf)
+                .HasMaxLength(2)
+                .HasColumnName("UF");
+
+            entity.HasOne(d => d.TbMedicoIdMedicoNavigation).WithMany(p => p.TbResidencia)
+                .HasForeignKey(d => d.TbMedicoIdMedico)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_Tb_residencia_Tb_medico1");
         });
 
         modelBuilder.Entity<TbTipoConsultum>(entity =>

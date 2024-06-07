@@ -15,5 +15,5 @@ public partial class TbMedico
 
     public virtual ICollection<TbConsultum> TbConsulta { get; set; } = new List<TbConsultum>();
 
-    public virtual ICollection<TbEndereco> TbEnderecos { get; set; } = new List<TbEndereco>();
+    public virtual ICollection<TbResidencium> TbResidencia { get; set; } = new List<TbResidencium>();
 }

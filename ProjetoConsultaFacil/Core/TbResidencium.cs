@@ -3,13 +3,9 @@ using System.Collections.Generic;
 
 namespace Core;
 
-public partial class TbEndereco
+public partial class TbResidencium
 {
-    public int IdEndereco { get; set; }
-
-    public int TbPacienteIdPaciente { get; set; }
-
-    public string TbPacienteCpf { get; set; } = null!;
+    public int IdResidencia { get; set; }
 
     public string Rua { get; set; } = null!;
 
@@ -23,5 +19,7 @@ public partial class TbEndereco
 
     public string Uf { get; set; } = null!;
 
-    public virtual TbPaciente TbPaciente { get; set; } = null!;
+    public int TbMedicoIdMedico { get; set; }
+
+    public virtual TbMedico TbMedicoIdMedicoNavigation { get; set; } = null!;
 }
