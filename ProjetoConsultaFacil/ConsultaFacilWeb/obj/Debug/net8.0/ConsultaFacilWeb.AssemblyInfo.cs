@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultaFacilWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c1a2981f0ec062aa268bfafe07bc5a4acd1f1bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+678b16a50b3b88ee6eddcb6941ca641b98b1be47")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsultaFacilWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsultaFacilWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
